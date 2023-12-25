@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Google (Apple Font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="title"><h1>Color Code Converter</h1></div>
+    <div id="credit"><p><i>Made By: <a href="https://github.com/oomeravcii">oomeravcii</a></i></p></div>
+    <div id="main">
+        <div id="content">
+            <div class="box" id="box1">
+                <h3>HEX to RGB:</h3>
+                <input type="text" id="hexInput" placeholder="Enter HEX code">
+                <input type="submit" id="hexSubmit" value="Submit">
+                <p id="hexAnswer"> </p>
+            </div>
+            <div class="box" id="box2">
+                <h3>RGB to HEX:</h3>
+                <div><label for="">R: </label><input type="text" id="rgbR" placeholder="Enter R value"></div>
+                <div><label for="">G: </label><input type="text" id="rgbG" placeholder="Enter G value"></div>
+                <div><label for="">B: </label><input type="text" id="rgbB" placeholder="Enter B value"></div>
+                <div><input type="submit" id="rgbSubmit" value="Submit"></div>
+                
+                <p id="rgbAnswer"> </p>
+            </div>
+        </div>
+    </div>
+    
+
+    
+
+
+    <script src="script.js"></script> 
+</body>
+</html>

@@ -1,5 +1,5 @@
 html {
-    background: rgb(172, 202, 237);
+    background: rgb(178, 205, 235);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -101,13 +101,14 @@ label {
 
 
 @media (max-width: 800px) {
-    #main {
-        display: flex;
-        justify-content: center;
-        margin-left: 250px;
-        width: 50%;
-    }
     #content {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 80%;
+        margin: 15px;
+        margin-right: 0;
     }
 }

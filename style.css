@@ -104,10 +104,12 @@ label {
     #content {
         flex-direction: column;
         align-items: center;
+        height: 900px;
     }
 
     .box {
         width: 80%;
+        height: 800%;
         margin: 15px;
         margin-right: 0;
     }
